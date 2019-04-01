@@ -1,0 +1,6 @@
+_site
+_cert
+.sass-cache
+node_modules
+Gemfile.lock
+*.gem
