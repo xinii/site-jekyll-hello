@@ -11,8 +11,6 @@ facebook_username: xintxt
 github_username:   xinii
 
 # Build settings
-auto:              true
-server:            true
 markdown:          kramdown
 paginate:          5
 paginate_path:     "/posts/page:num/"
