@@ -1,0 +1,21 @@
+title:             Xin's Network
+email:             xinii@msn.com
+description:       Welcome to my personal website!
+author:            Xin Li
+baseurl:           ""
+url:               "https://xinii.github.io"
+
+# Social Profiles
+twitter_username:  xintxt
+facebook_username: xintxt
+github_username:   xinii
+
+# Build settings
+auto:              true
+server:            true
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
