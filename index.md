@@ -1,6 +1,6 @@
 ---
 layout: home
-background: '/img/bg-index.jpg'
+background: '/img/index.jpg'
 ---
 
 >Welcome to X \| N Blog!

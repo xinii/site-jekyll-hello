@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 description: My personal introduction.
-background: '/img/bg-about.jpg'
+background: '/img/about.jpg'
 ---
 
 **Xin Li**
