@@ -7,6 +7,6 @@ background: '/img/bg-index.jpg'
 
 >Go to <u><a href="http://xin.g2.xrea.com">X | N eXtra Network</a></u>.
 
-![LOGO of X | N eXtra Network](https://ss1.xrea.com/xin.g2.xrea.com/content/images/xin.png)
+![LOGO](https://ss1.xrea.com/xin.g2.xrea.com/content/images/xin.png)
 
 >Or read the latest blog post.
