@@ -60,15 +60,17 @@
     -o-background-size: cover;
     background-size: cover;
 }
+@mixin xin-font() {
+    font-family: 'PingFang SC', 'HiraginoSans-W0', 'Hiragino Sans', 'Hiragino Sans GB', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', 'STHeiti', 'Microsoft YaHei', 'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, serif;
+}
 @mixin serif-font() {
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', 'PingFang SC', 'Hiragino Sans GB', 'STHeiti', 'Microsoft YaHei', 'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, serif;
+    @include xin-font;
 }
 @mixin sans-serif-font() {
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', 'PingFang SC', 'Hiragino Sans GB', 'STHeiti', 'Microsoft YaHei', 'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+    @include xin-font;
 }
 @mixin test-font() {
     font-family: 'Lora', 'Times New Roman', serif;
-    
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
     font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', 'PingFang SC', 'Hiragino Sans GB', 'STHeiti', 'Microsoft YaHei', 'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
