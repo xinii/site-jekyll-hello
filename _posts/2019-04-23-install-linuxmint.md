@@ -11,6 +11,8 @@ background: '/img/posts/linuxmint.png'
 # 准备U盘
 {:.section-heading}
 
+第一件事，准备一个可以启动的U盘以供安装Linux。
+
 * 在Windows上刻录一个可以安装Linux的U盘：
 
 [点击打开教程](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
@@ -25,6 +27,8 @@ background: '/img/posts/linuxmint.png'
 
 # 安装Linuxmint
 {:.section-heading}
+
+第二件事，安装Linux发行版，这里以Linuxmint为例。
 
 * 上面的教程提到的是安装Ubuntu操作系统，安装Linuxmint也是一样的，把教程中的需要用到Ubuntu镜像的地方换成Linuxmint的镜像即可。
 下面是Linuxmint的官方网站：
