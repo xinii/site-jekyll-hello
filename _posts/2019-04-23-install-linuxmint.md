@@ -10,7 +10,7 @@ background: '/img/posts/language.png'
 
 在Windows上刻录一个可以安装Linux的U盘：
 
-[点击打开教程](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-window)
+[点击打开教程](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
 
 其中会用到的软件叫做Rufus，上面的说明里面有提到，官方网站是：
 
