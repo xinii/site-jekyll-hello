@@ -3,7 +3,7 @@ layout: post
 title: "How to install Linuxmint from USB device"
 subtitle:  "如何从USB设备安装Linuxmint"
 date:   2019-04-23 19:18:00 +0900
-background: '/img/posts/language.png'
+background: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_Linux_Mint.png'
 ---
 
 # 准备U盘：
