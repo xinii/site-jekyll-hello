@@ -2,8 +2,8 @@
 layout: home
 background: '/img/index.jpg'
 ---
->Welcome to X \| N Blog! You can also go to the <u><a href="http://xin.g2.xrea.com">X | N eXtra Network</a></u>.
+**Welcome to X \| N Blog! [Click here](http://xin.g2.xrea.com) to visit my homepage.**
 
-![LOGO](https://ss1.xrea.com/xin.g2.xrea.com/content/images/xin.png)
+<a href="http://xin.g2.xrea.com">![LOGO](https://ss1.xrea.com/xin.g2.xrea.com/content/images/xin.png){:.img-fluid}</a>
 
 ---
