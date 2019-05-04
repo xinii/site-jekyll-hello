@@ -34,7 +34,6 @@ emacs 内就只能使用 http 协议而并不能使用 https 协议，
 ```
 sudo zypper install gnutls
 ```
-{:.highlighter-rouge}
 
 另外，在安装 emacs 时，如果 make 报了以下错误：
 
