@@ -21,6 +21,8 @@ bash configure --prefix=$HOME/.local --with-gif=no --with-gnutls=no
 emacs 内就只能使用 http 协议而并不能使用 https 协议，
 虽然在 emacs 初始化时可以将 melpa 的链接都改为 http 协议解决问题，
 但如果后期使用 google-translate 之类的包时还是会遇到问题。
+
+
 例如即使在 elpa 下将 google-translate 包内的所有 .el 文件中出现的 https 改为 http，
 中途还是会出现自动使用某些 https 服务的情况，从而导致翻译异常。
 （这里需要注意，修改后需删除所有 .elc 文件以强制重新编译使修改生效）
@@ -31,4 +33,24 @@ emacs 内就只能使用 http 协议而并不能使用 https 协议，
 
 ```
 sudo zypper install gnutls
+```
+
+另外，在安装 emacs 时，如果 make 报了以下错误：
+
+```
+checking for library containing tputs... no
+configure: error: The required function 'tputs' was not found in any library.
+The following libraries were tried (in order):
+  libtinfo, libncurses, libterminfo, libcurses, libtermcap
+Please try installing whichever of these libraries is most appropriate
+for your system, together with its header files.
+For example, a libncurses-dev(el) or similar package.
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No rule to make target 'install'.  Stop.
+```
+
+那么对于 OpenSUSE 的环境可能需要安装一个 ncurses-devel 的包，
+执行下面的语句即可。
+```
+sudo zypper install ncurses-devel
 ```
