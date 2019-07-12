@@ -2,7 +2,7 @@
 layout: post
 title: "Install OpenCV on Jetson Nano"
 subtitle:  "在 Jetson Nano 上安装 OpenCV"
-date:   2019-04-02 14:47:00 +0900
+date:   2019-07-12 12:00:00 +0900
 background: '/img/posts/jekyll.png'
 ---
 
