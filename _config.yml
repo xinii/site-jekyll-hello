@@ -2,8 +2,8 @@ title:             X | N Blog
 email:             xinii@msn.com
 description:       Welcome!
 author:            Xin Li
-baseurl:           ""
-url:               "https://xinii.github.io"
+baseurl:           "/clean-blog"
+url:               ""
 
 # Social Profiles
 twitter_username:  xintxt
