@@ -2,7 +2,7 @@ title:             X | N Blog
 email:             xinii@msn.com
 description:       Welcome!
 author:            Xin Li
-baseurl:           "/clean-blog"
+baseurl:           "/jekyll-blog-clean"
 url:               ""
 
 # Social Profiles
